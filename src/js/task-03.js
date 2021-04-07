@@ -59,10 +59,10 @@ class CountdownTimer {
 
 const firstCountdownTimer = new CountdownTimer({
   selector: "#timer-1",
-  targetDate: new Date("Dec 31, 2020"),
+  targetDate: new Date("Dec 31, 2021"),
 });
 
 const secondCountdownTimer = new CountdownTimer({
   selector: "#timer-2",
-  targetDate: new Date("Dec 12, 2020 12:45 PM"),
+  targetDate: new Date("Dec 12, 2021 12:45 PM"),
 });
